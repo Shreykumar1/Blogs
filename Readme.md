@@ -2,17 +2,27 @@
 
 This is a simple blog platform where users can create, view, edit, and delete blog posts. The project is built using Next.js for the frontend with ShadCN for the UI components, and Express.js for the backend. SQLite is used for the database.
 
+### [Watch the project demo](https://www.youtube.com/watch?v=d0mm2SnAYlI)
+### [Live Link](https://shrey-blogs.vercel.app/)
+
+![Screenshot 2024-08-29 224256](https://github.com/user-attachments/assets/a626ab0a-11d3-471f-a888-dea271cbb02a)
+![Screenshot 2024-08-29 224256](https://github.com/user-attachments/assets/ad2907ae-a0b6-4416-b0b2-11f513a765d3)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e27292b6-ec1f-4e7d-bfc5-1615cecd63e0" alt="Image 1" width="45%">
+  <img src="https://github.com/user-attachments/assets/5443c937-3550-492d-a766-ad7d458a34a4" alt="Image 2" width="45%">
+</p>
+
 ## Features
 - Create new blog posts
 - View a list of all blog posts
 - View the full content of a specific blog post
 - Delete blog posts
-- Edit existing blog posts
+## Extra Features
 - Light and Dark Mode
 - Confirmation modal before deleting a post
 - Basic frontend form validation to ensure title and content are not empty
 - Responsive UI using ShadCN components for a consistent look
-- Responsive design
 
 ## Tech Stack
 

@@ -1,6 +1,6 @@
 "use client"
 import BlogCard from "@/components/BlogCard";
-import { WholeWord } from "lucide-react";
+import {  Globe } from "lucide-react";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
@@ -46,7 +46,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <WholeWord />
+          <Globe />
            Github Repo →
         </a>
       </footer>
