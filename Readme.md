@@ -121,9 +121,6 @@ This is a simple blog platform where users can create, view, edit, and delete bl
 ### View a Post
 1. Click on a post title from the home page to view its full content.
 
-### Edit a Post
-1. On the view post page, click the "Edit" button to update the post.
-
 ### Delete a Post
 1. On the home page or view post page, click the "Delete" button.
 2. A confirmation modal will appear to confirm the deletion.
