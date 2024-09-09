@@ -8,6 +8,7 @@ This is a simple blog platform where users can create, view, edit, and delete bl
 - View the full content of a specific blog post
 - Delete blog posts
 - Edit existing blog posts
+- Light and Dark Mode
 - Confirmation modal before deleting a post
 - Basic frontend form validation to ensure title and content are not empty
 - Responsive UI using ShadCN components for a consistent look

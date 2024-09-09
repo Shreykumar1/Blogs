@@ -35,7 +35,7 @@ const Modal = ({id}) => {
         const handleDelete = async() => {
             await deleteData();
             setOpen(false);
-            window.location.reload();
+            window.location.href = "/";
         }
     return (
         <>

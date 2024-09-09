@@ -12,7 +12,7 @@ export default function Component() {
     <nav className="fixed inset-x-0 top-0 z-50  shadow-sm bg-secondary ">
       <div className="w-full max-w-7xl mx-auto px-4 text-primary">
         <div className="flex justify-between h-14 items-center">
-          <Link href="#" className="flex items-center" prefetch={false}>
+          <Link href="/" className="flex items-center" prefetch={false}>
            Blogs
             <MountainIcon className="h-6 w-6 md:ml-3" />
             <span className="sr-only">Inc</span>

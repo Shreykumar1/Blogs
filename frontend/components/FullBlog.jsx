@@ -17,7 +17,7 @@ function formatDay(timestamp) {
 export default function FullBlog({id,title,content,timestamp}) {
   return (
     <div className="max-w-4xl lg:mx-auto border rounded px-2 mx-3 bg-secondary text-primary">
-      <article className="prose prose-gray dark:prose-invert">
+      <article className="prose prose-gray dark:prose-invert p-4 ">
         <header className="space-y-2 not-prose">
           <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl lg:leading-[3.5rem] ">
             {title}
@@ -34,12 +34,13 @@ export default function FullBlog({id,title,content,timestamp}) {
           
         </div>
         <div className="flex items-center justify-end gap-2">
-          <Button variant="outline" size="sm">
+          <Button variant="outline" size="sm" className="border border-white">
             <TrashIcon className="mr-2 h-4 w-4" />
-            Delete
+            {/* Delete */}
+            <Modal id={id}/>
           </Button>
         </div>
-        <Modal />
+        {/* <Modal /> */}
       </article>
     </div>
   )
