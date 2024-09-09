@@ -105,7 +105,7 @@ This is a simple blog platform where users can create, view, edit, and delete bl
    ```
 3. Run the backend server:
    ```bash
-   node server.js
+   node app.js
    ```
 4. The backend should now be running on [http://localhost:5000](http://localhost:5000).
 
